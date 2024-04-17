@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .from{
+            width: 600px;
+            height: 550px;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 5px 5px gray;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .from .title{
+            text-align: center;
+        }
+        .khung{
+            width: 70%;
+        }
+        .btn{
+            width: 100px;
+            font-weight: bold;
+            height: 40px;
+            font-size: 16px;
+            background-color: rgb(143, 131, 131);
+            color: white;
+        }
+        .btn:hover{
+            background-color: orange;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="from">
+        <div class="title">
+            <h3> <u> HỎI/ĐÁP GIÁO DỤC</u></h3>
+        </div>
+        <div class="container">
+            <div class="table">
+                <form action="">
+                    <label>Chủ đề: </label>
+                        <select name="" id="">
+                            <option value="">Chủ đề khác</option>
+                            <option value="">Chuyên gia giáo dục</option>
+                            <option value="">Dạy và học</option>
+                            <option value="">Đổi mới giáo dục</option>
+                            <option value="">Thi - Tuyển sinh</option>
+                            <option value="">Thi đua - Khen thưởng </option>
+                        </select>
+                    <div class="group">
+                        <label>Họ tên: </label> <br>
+                        <input class="khung" type="text"  required placeholder="Họ tên">
+                    </div>
+                    <div class="group">
+                        <label>Email: </label> <br>
+                            <input class="khung" type="text" required  placeholder="Email">
+                    </div>
+                        <label>Số điện thoại: </label><br>
+                            <input class="khung" type="text" required  placeholder="Số điện thoại"> <br>
+                        <label>Tiêu đề: </label><br>
+                            <input class="khung" type="text" required  placeholder="Tiêu đề"> <br>
+                        <label>Nội dung câu hỏi</label> <br>
+                            <textarea class="khung" name="" id="" required  placeholder="Nội dung câu hỏi" cols="30" rows="10"></textarea>
+                    <div class="buttom">
+                        <button class="btn">Gửi đi</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

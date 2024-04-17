@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            width: 600px;
+            height: 500px;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 5px 5px gray;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .form-hop{
+            width: 70%;
+        }
+
+        .btn{
+            width: 100px;
+            font-weight: bold;
+            height: 40px;
+            font-size: 16px;
+            background-color: rgb(143, 131, 131);
+            color: white;
+        }
+
+        .btn:hover{
+            background-color: orange;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">FORM LIÊN HỆ</h1>
+    <form class="form" action="" method="post">
+        Họ và tên: <br>
+        <input class="form-hop" type="text" name="" id=""> <br>
+        Giới tính:
+        <label for="">
+            <input type="radio" name="trap" id=""> Nam
+            <input type="radio" name="trap" id=""> Nữ
+        </label> <br>
+        Quốc tịch:
+        <select name="list" id="list">
+            <option value="Tùy chọn">Tùy chọn</option>
+            <option value="Việt Nam">Việt Nam</option>
+            <option value="Lào">Lào</option>
+            <option value="Nhật Bản">Nhật Bản</option>
+            <option value="Hàn Quốc">Hàn Quốc</option>
+            <option value="Mỹ">Mỹ</option>
+            <option value="Mỹ">Mỹ</option>
+            <option value="Nga">Nga</option>
+        </select> <br>
+        Sở thích: <br>
+        <label for="">
+            <input type="checkbox" name="" id=""> Âm nhạc
+            <input type="checkbox" name="" id=""> Du lịch
+            <input type="checkbox" name="" id=""> Nghe nhạc
+        </label> <br>
+        Ghi chú: <br>
+        <textarea class="form-hop" name="" id="" cols="30" rows="10"></textarea> <br>
+        <hr>
+        <input class="btn" type="submit" value="submit">
+        <input class="btn" type="reset" value="reset">
+    </form>
+</body>
+</html>

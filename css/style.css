@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+/* header */
+
+.container .header{
+    background-image: url(../image/baner.gif);
+    height: 349px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container .header img{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+    height: 60%;
+}
+
+/* Menu */
+.menu{
+    min-height: 40px;
+    background-color: orangered;
+}
+
+.menu ul{
+    list-style: none;
+    background-color: orangered;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.menu ul li a:hover{
+    background-color: yellow;
+    color: red;
+    text-shadow: 0 0 10px red;
+}
+
+/* menu con */
+.menu ul ul{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    box-shadow: 0 0 2px gray;
+    background-color: orangered;
+    border-radius: 3px;
+    text-align: left;
+    z-index: 100;
+}
+
+.menu ul ul li{
+    display: block;
+    z-index: 100;
+}
+
+.menu ul ul a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-variant: small-caps;
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+.menu ul ul a:hover{
+    color: white;
+    background-color: yellow;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}
+
+/* marquee */
+marquee{
+    font-size: 18px;
+    line-height: 25px;
+    min-height: 25px;
+    border: 20px;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    margin-bottom: 10px;
+}
+
+.content article{
+    width: 75%;
+    float: left;
+    background-color: lightblue;
+    min-height: 1200px;
+}
+
+.content article iframe[name=page]{
+    width: 100%;
+    height: 1200px;
+}
+
+.content aside{
+    width: 25%;
+    float: right;
+    background-color: lightgoldenrodyellow;
+    min-height: 1204px;
+}
+
+.lichlv .widthR{
+    width: 100%;
+    height: 60px;
+}
+
+.lichlv ul{
+    list-style: none;
+    margin: 4px;
+    font-size: 19px;
+}
+
+.lichlv ul a{
+    display: block;
+    background-image: url(../image/tich.png);
+    background-size: 30px;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    padding: 4px 40px;
+    margin: 4px;
+}
+
+.lichlv ul a:hover{
+    color: red;
+}
+
+.widthR img{
+    width: 98%;
+    padding: 10px 0;
+}
+
+.widthR img:hover{
+    box-shadow: 1px 2px 5px 5px gray;
+}
+
+.vdgttrw h3{
+    font-size: 22px;
+    text-align: center;
+    background-color: red;
+    background-image: url(../image/video-icon-818-thumb.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: 7px 10px;
+}
+
+.thongbao{
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(11, 238, 49);
+    background-image: url(../image/iconloa-2.png);
+    background-size: 38px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.thongbaochay ul{
+    font-size: 22px;
+    margin: 4px;
+    text-align: justify;
+}
+
+.thongbaochay ul a{
+    background-image: url(../image/iconloa-1.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding: 4px 30px;
+    background-position: 3px 5px;
+}
+
+.thongbaochay ul a:hover{
+    color: red;
+}
+
+/* Footer */
+footer{
+    clear: both;
+    min-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    line-height: 50px;
+    border-top: 1px dotted orangered;
+}
